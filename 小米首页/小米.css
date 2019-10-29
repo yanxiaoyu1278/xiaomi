@@ -1,0 +1,830 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+	
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration:none;
+	list-style: none;
+
+}
+
+/*内宽*/
+.box_width{
+	width: 1226px;
+	margin:0 auto;
+}
+
+/*  大灰色盒子 */
+.bigBox{
+	margin-top: 40px;
+	width: 100%;
+	background: #f5f5f5;
+	overflow: hidden;
+	
+}
+
+/*侧面导航banner图上的左右箭头*/
+.banner_arrowLeft,.banner_arrowRight i{
+	color: white;
+	font-size: 30px;
+}
+
+
+
+/* 图片中的标题*/
+.photoWord_title{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 2px;
+	color: #333333;
+	
+}
+
+
+/* 图片中的小标题*/
+.photoWord_xiaoTitle{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-top: -16px;
+}
+
+
+
+/*  图片中的价钱*/
+.photoWord_price{
+	display: block;
+	text-align: center;
+	color: #ff6709;
+	font-size: 14px;
+}
+.photoWord_price1{
+	color: #b0b0b0;
+	text-decoration: line-through;
+}
+
+/*图片阴影*/
+.videoBox ul li:hover,.ElectricalBox_child ul li:hover,.phoneBox_childBig:hover,.phoneBox_child ul li:hover{
+	box-shadow: 0 15px 30px  rgba(0,0,0,.1);
+	position: relative;
+	top: -3px;
+}
+
+/*  头部部分 */
+.headBox_left span{
+	color: #393e3e;
+	margin-left: 7px;
+}
+
+
+.headBox_left a{
+	color: #b0b0b0;
+}
+.headBox_right a{
+	color: #b0b0b0;
+}
+
+.headBox_left a:hover{
+	color: white;
+
+}
+.headBox_right a:hover{
+	color: white;
+
+}
+
+.headBox{
+	width: 100%;
+	height: 40px;
+	background:#333;
+}
+
+
+.headBox_left{
+
+	float: left;
+}
+
+
+.headBox_left ul li{
+
+	padding:5px 0px;
+	margin-right: 10px;
+	line-height: 30px;
+	font-size: 12px;
+	text-align: center;
+	float: left;
+}
+
+
+.headBox_right{
+
+	float: right;
+}
+
+.headBox_right ul li{
+	padding:5px 0px;
+	margin-left: 10px;
+	line-height: 30px;
+	font-size: 12px;
+	text-align: center;
+	float: right;
+}
+
+.gouwuche{
+	padding: 5px 15px;
+	background-color: #424242;
+}
+
+
+
+
+/*  导航栏部分  */
+
+
+.menuBox_logo{
+	width: 50px;
+	height: 50px;
+	background:#ff6700;
+	float: left;
+	margin-top: 14px;
+	text-align: center;
+	line-height: 50px;
+}
+.menuBox_logo .icon-xiaomi{
+	font-size: 30px;
+	color: white;
+}
+
+.menuBox_content{
+	margin-left: 230px;
+}
+
+.menuBox_content a{
+	color: black;
+	font-size: 16px;
+	float: left;
+	padding: 30px 10px;
+}
+
+.menuBox_content a:hover{
+	color: #ff6700;
+}
+
+
+/*搜索框*/ 
+
+.menuBox_search input{
+	border:1px solid #e0e0e0;
+	float: right;
+	margin-top: 15px;
+	width: 225px;
+	height: 50px;
+	padding: 0 10px;
+	outline: none;
+}
+
+.menuBox_search .icon-sousuokuang{
+	line-height: 52px;
+	text-align: center;
+	float: right;
+	font-size: 25px;
+}
+
+.menuBox_search i{
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin-top: 15px;
+	border: 1px solid #e0e0e0;
+}
+.menuBox_searchWord span:hover,.menuBox_search i:hover{
+	background:#ff6700;
+	color: white;
+}
+
+.menuBox_searchWord{
+	position: absolute;
+	right: 212px;
+	top: 70px;
+
+}
+.menuBox_searchWord span{
+	padding: 0 5px;
+	color: #757575;
+	font-size: 12px;
+	margin-left: 5px;
+	background: #eee;
+	cursor: pointer;
+}
+
+
+
+/* banner 图片*/
+.banner{
+	clear: both;
+	height: 460px;
+}
+
+.active{
+	z-index: 1;
+}
+.active2{
+	z-index: 2;
+}
+.banner_img li{
+	position: absolute;
+}
+.banner_img li img{
+	width: 1226px;
+	height: 460px;
+}
+
+
+
+/* banner  左导航栏*/
+.banner_sideMenu{
+	padding: 20px 0px;
+	position: absolute;
+	z-index: 2;
+	width: 234px;
+	height: 420px;
+	background: rgba(105,101,101,.6);
+
+}
+
+.banner_sideMenu li{
+	padding: 0px 20px;
+	color: white;
+	height: 42px;
+	cursor: pointer;
+}
+
+.banner_sideMenu li:hover{
+	background: #ff6700;
+}
+
+.banner_sideMenu li a{
+	color: white;
+	line-height: 42px;
+
+}
+
+
+.banner_sideMenu i{
+	float: right;
+	line-height: 42px;
+}
+
+
+/* 分页器*/
+.banner_point{
+	margin-right: 30px;
+}
+.banner_point li{
+	position: relative;
+	z-index: 3;
+	width: 6px;
+	height: 6px;
+	background: red;
+	float: right;
+	top: 430px;
+	margin-left: 15px;
+	border-radius: 50%;
+	border: 2px solid #333;
+
+}
+
+
+
+/* 左右箭头 */
+
+.banner_arrow{
+	position: relative;
+}
+.banner_arrowLeft{
+	position: absolute;
+	z-index: 3;
+	top: 230px;
+	left: 234px;
+}
+.banner_arrowRight{
+	position: absolute;
+	z-index: 3;
+	top: 230px;
+	right:0px;
+}
+
+.banner_arrowRight .icon-changyongtubiao-xianxingdaochu-zhuanqu-1,.banner_arrowLeft .icon-changyongtubiao-xianxingdaochu-zhuanqu-{
+	font-size: 40px;
+	padding: 20px 0;
+	color: white;
+}
+
+.banner_arrowLeft .icon-changyongtubiao-xianxingdaochu-zhuanqu-:hover{
+	background: #333;
+}
+.banner_arrowRight .icon-changyongtubiao-xianxingdaochu-zhuanqu-1:hover{
+	background: #333;
+}
+
+
+
+/*  小米秒杀  */
+
+.buyBox_left {
+	width: 234px;
+}
+
+.buyBox_left ul li{
+
+	float: left;
+	width: 70px;
+	height: 67px;
+	background: #5f5750;
+	padding:18px 4px 0 4px;
+	text-align: center;
+}
+
+.buyBox_left ul li a{
+	color: white;
+	font-size: 12px;
+}
+.buyBox_left ul li a img{
+	width: 20px;
+	height: 20px;
+}
+
+.buyBox{
+	overflow: hidden;
+	position: relative;
+	top: 20px;
+}
+.buyBox_three{
+	position: absolute;
+	left: 236px;
+}
+
+.buyBox_three img{
+	width: 316px;
+	height: 170px;
+}
+
+.buyBox_three ul li{
+	float: left;
+	width: 316px;
+	height: 170px;
+	background: red;
+	margin-left: 14px;
+}
+
+
+/*  小米闪购 */
+
+.lightBuyBox_word{
+	width: 100%;
+	height: 58px;
+
+}
+.lightBuyBox_word span{
+	font-family: 微软雅黑;
+	float: left;
+	font-size: 22px;
+	color: #333;
+	line-height: 58px;
+}
+
+.lightBuyBox_word a{
+	color: #b0b0b0;
+	float: right;
+	width: 24px;
+	height: 16px;
+	padding: 3px 5px;
+	margin-top: 15px;
+	border: 1px solid #e0e0e0;
+	text-align: center;
+	line-height: 16px;
+}
+
+.lightBuyBox_word a:hover{
+	color:#ff6700;
+
+}
+
+
+.lightBuyBox_five_left{
+	width: 234px;
+	height: 300px;
+	background: #f1eded;
+	float: left;
+	padding-top: 39px;
+	border-top-color: #e53935;
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
+.lightBuyBox_five_left_word1{
+	text-align: center;
+	display: block;
+	font-size: 21px;
+	padding-top: 15px;
+	color: red;
+}
+
+
+.lightBuyBox_five_left img{
+	display: block;
+	margin: 25px auto;
+}
+
+
+.lightBuyBox_five_left_word2{
+	display: block;
+	font-size: 15px;
+	text-align: center;
+	color: rgba(0,0,0,.54);
+
+}
+
+
+
+.lightBuyBox_five_fore ul li{
+	background: white;
+	width: 234px;
+	height: 300px;
+	border-top-color: blue;
+	border-top-width: 1px;
+	border-top-style: solid;
+	float: left;
+	margin-left: 14px;
+	padding-top: 39px;
+}
+.lightBuyBox_five_fore ul li:hover{
+	cursor: pointer;
+}
+
+.lightBuyBox_five_fore ul li img{
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+	display: block;
+}
+
+
+/*  home banner*/
+
+.home_bannerBox img{
+	overflow: hidden;
+	width: 100%;
+	margin: 22px 0;	
+
+}
+.phoneBox_childBig:hover,.phoneBox_child ul li:hover,.ElectricalBox_child img:hover,.ElectricalBox_child ul li:hover,.home_bannerBox img:hover{
+	cursor: pointer;
+}
+
+.phoneBox_word{
+	overflow: hidden;
+}
+.ElectricalBox_word1,.phoneBox_word span{
+	float: left;
+	height: 58px;
+	line-height: 58px;
+	font-size: 22px;
+}
+
+.phoneBox_word a{
+	font-size: 16px;
+	line-height: 58px;
+	float: right;
+	color: #424242;
+
+}
+.phoneBox_word a .icon-changyongtubiao-xianxingdaochu-zhuanqu-1{
+	color: white;
+	margin-left: 8px;
+	padding: 3px;
+	border-radius: 50%;
+	background: #b0b0b0;
+}
+
+.phoneBox_word a:hover{
+	color: #ff6700;
+}
+
+.phoneBox_word a:hover .icon-changyongtubiao-xianxingdaochu-zhuanqu-1{
+	background: #ff6700;
+}
+
+
+.phoneBox_child{
+	overflow: hidden;
+}
+.phoneBox_childBig{
+	float: left;
+	width: 234px;
+	height: 614px;
+}
+
+
+.phoneBox_child ul li{
+	float: left;
+	background: white;
+	width: 234px;
+	height: 300px;
+	margin: 0px 0px 14px 14px;
+}
+.phoneBox_child ul li img{
+	display: block;
+	width: 160px;
+	height: 160px;
+	padding: 20px 0;
+	margin:0 auto;
+}
+
+.ElectricalBox_word{
+	overflow: hidden;
+}
+
+
+.ElectricalBox_word ul li{
+	float: right;
+	margin-left: 30px;
+	margin-top: 13px;
+
+}
+
+.ElectricalBox_word ul li:hover{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+}
+
+.ElectricalBox_child img{
+	width: 234px;
+	height: 300px; 
+	float: left;
+}
+.ElectricalBox_child ul li {
+	float: left;
+	margin: 0 0 14px 14px;
+	width: 234px;
+	height: 300px;
+	background: white;
+}
+
+.ElectricalBox_child ul li img{
+	width: 160px;
+	height: 160px;
+	display: block;
+	margin: 20px 38px;
+}
+
+
+.ElectricalBox_child1{
+	position: relative;
+}
+
+.ElectricalBox_child1 ul li{
+	float: left;
+	width: 234px;
+	height: 143px;
+	background: white;
+	margin: 0 0 14px 14px;
+}
+
+
+
+.ElectricalBox_child1 ul li img{
+	margin-top: -74px;
+	margin-left:130px;
+	width: 80px;
+	height: 80px;
+
+}
+
+.ElectricalBox_child1_p1{
+	font-size: 14px;
+	margin: 50px 0 0 30px;
+	display: block;
+	width: 94px;
+
+}
+
+.ElectricalBox_child1_p2{
+	font-size: 14px;
+	color: #ff6700;
+	margin: 7px 0 0 30px;
+}
+
+.ElectricalBox_child1 ul li span{
+	position: relative;
+	left: 30px;
+	top: 50px;
+	font-size: 18px;
+
+}
+
+
+.ElectricalBox_child1 ul li .icon-youjiantou{
+	position: absolute;
+	font-size: 60px;
+	line-height: 100px;
+	color: #ff6700;
+	right: 40px;
+}
+
+
+
+/*  视频部分    */
+.videoBox .videoBox_active{
+	margin-left: 0;
+}
+.videoBox ul li{
+	width: 296px;
+	height: 285px;
+	background: white;
+	float: left;
+	margin: 0 0 14px 14px;
+}
+
+.videoBox ul li img{
+	width: 100%;
+	height: 180px;
+}
+.videoBox .icon-bofang{
+	color: white;
+	font-size: 40px;
+	position: relative;
+	top: -50px;
+	left: 20px;
+}
+
+.videoBox li:hover .icon-bofang{
+	color: #ff6700;
+}
+
+.videoBox span{
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+	display: block;
+	text-align: center;
+}
+
+
+/*右面固定导航*/
+
+.rightFixedMenuBox{
+	position: fixed;
+	right: 0;
+	top: 140px;
+	z-index: 99;
+}
+.rightFixedMenuBox ul li{
+	text-align: center;
+	width: 82px;
+	height: 72px;
+	background: white;
+	border: 1px solid #f5f5f5;
+	padding-top: 18px;
+}
+
+.rightFixedMenuBox .iconfont{
+	font-size: 30px;
+
+}
+
+.rightFixedMenuBox a{
+	font-size: 14px;
+	color: #757575;
+}
+
+.rightFixedMenuBox ul li:hover a{
+	color: #ff6700;
+}
+
+
+.siteBox{
+	width: 100%;
+	height: 272px;
+	background: white;
+	margin-top: 4px;
+}
+.siteBoxTop{
+	border-bottom: 1px solid #e0e0e0;
+	overflow: hidden;
+}
+.siteBoxTop a{
+	font-size: 16px;
+	color: #616161;
+}
+
+.siteBoxTop a:hover{
+	color: orange;
+}
+.siteBoxTop .iconfont{
+	font-size: 24px;
+
+}
+
+.siteBoxTop ul li{
+	padding: 27px 0;
+	margin-left: 56px;
+	float: left;
+	height: 26px;
+}
+
+.siteBoxTop span{
+	margin-left: 56px;
+
+}
+
+.siteBoxBottom{
+	overflow: hidden;
+	padding: 40px 0;
+}
+.siteBoxBottom li:hover {
+	color: #ff6700;
+	cursor: pointer;
+}
+
+.siteBoxBottom ul{
+	float: left;
+	width: 160px;
+}
+.siteBoxBottom ul li{
+	margin-top: 10px;
+	font-size: 12px;
+	color: #757575;
+}
+
+.siteBoxBottom .siteBoxBottom1{
+	font-size: 14px;
+	color: #424242;
+	margin: 0 0 26px;
+}
+
+.siteBoxBottom .siteBoxBottom_right{
+	float: left;
+	width: 251px;
+	height:112px;
+	border-left: 1px solid #e0e0e0;
+	text-align: center;
+	color: #616161;
+}
+
+.siteBoxBottom .siteBoxBottom_right1{
+	color: #ff6700;
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.siteBoxBottom .siteBoxBottom_right2{
+	color: #616161;
+	font-size: 12px;
+
+}
+
+.siteBoxBottom .siteBoxBottom_right3 span{
+	border: 1px solid #ff6700;
+	background: white; 
+}
+
+.last p{
+
+	font-size: 12px;
+	color: #b0b0b0;
+}
+
+.last1{
+	width: 57px;
+	height: 106px;
+
+	float:left; 
+	margin-right: 10px;
+}
+
+.last1 .last1_icon{
+	width: 50px;
+	height: 50px;
+	background: #ff6700;
+	text-align: center;
+}
+
+.last1 .last1_icon .icon-xiaomi{
+	font-size: 30px;
+	color: white;
+	
+	line-height: 50px;
+}
+
+
+.last_word p{
+	margin: 30px 0;
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+	font-family: 仿宋;
+}
